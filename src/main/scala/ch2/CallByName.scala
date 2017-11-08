@@ -1,7 +1,5 @@
 package ch2
 
-import scala.util.Random
-
 /**
   * 传名调用，传入函数名字，每次调用的时候都在函数内部计算传入函数的值
   */
