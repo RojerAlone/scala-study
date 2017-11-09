@@ -26,8 +26,8 @@ object Collections {
         println("map.filter : " + map.filter(p => p._1.equals("key")))
         println("map.filterKeys : " + map.filterKeys(a => a.equals("key"))) // 用 filterKeys 过滤符合条件的 key
 
-        val map1 = Map("key" -> "value1")
-        map1 + ("key2" -> "value2") // 可以直接用 + 号添加映射
+        var map1 = Map("key" -> "value1")
+        map1 += ("key2" -> "value2") // 可以直接用 += 号添加映射
         println("map ++ : " + (map ++ map1)) // map 的 ++ 运算符可以将两个 map 结合
         println("map.keys : " + map.keySet) // 用 map.keySet 获取 key 的集合，也可以用 map.keys 获取迭代器
         println("map.values : " + map.values) // 用 map.values 获取迭代器
