@@ -38,6 +38,9 @@ object Collections {
             case Some(value) => println(value)
             case _ => println("none")
         }
+
+        map1 -= "key" // map -= key 可以直接删除某个 k-v
+        println(map1)
     }
 
 }
