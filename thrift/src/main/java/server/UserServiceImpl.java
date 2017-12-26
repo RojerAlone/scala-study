@@ -5,7 +5,7 @@ import cn.rojeralone.thrift.UserService;
 import org.apache.thrift.TException;
 
 /**
- * Created by zhangrenjie on 2017-11-12
+ * Created by RojerAlone on 2017-11-12
  */
 public class UserServiceImpl implements UserService.Iface{
 

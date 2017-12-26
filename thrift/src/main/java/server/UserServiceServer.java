@@ -9,7 +9,7 @@ import org.apache.thrift.transport.TServerSocket;
 import org.apache.thrift.transport.TTransportException;
 
 /**
- * Created by zhangrenjie on 2017-11-12
+ * Created by RojerAlone on 2017-11-12
  */
 public class UserServiceServer {
 
